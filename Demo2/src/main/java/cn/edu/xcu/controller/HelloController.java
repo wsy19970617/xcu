@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
-	@RequestMapping("/hw")
+	@RequestMapping("/hw1")
 	public String hw() {
-		return "hellp";
+		return "hello";
 	}
 }
