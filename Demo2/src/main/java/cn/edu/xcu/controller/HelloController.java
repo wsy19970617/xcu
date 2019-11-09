@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 	@RequestMapping("/hw1")
 	public String hw() {
-		return "helll";
+
+		return "hello";
+
 	}
 }
